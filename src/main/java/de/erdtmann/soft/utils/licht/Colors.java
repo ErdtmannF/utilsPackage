@@ -1,4 +1,4 @@
-package de.erdtmann.soft.utilsPackage.licht;
+package de.erdtmann.soft.utils.licht;
 
 import java.awt.Color;
 import java.util.ArrayList;

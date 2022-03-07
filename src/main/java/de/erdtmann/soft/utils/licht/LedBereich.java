@@ -1,4 +1,4 @@
-package de.erdtmann.soft.utilsPackage.licht;
+package de.erdtmann.soft.utils.licht;
 
 
 public class LedBereich {
