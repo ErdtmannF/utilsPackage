@@ -96,7 +96,8 @@ public class LichtKonfig {
 			int anfang = i * g;
 			int ende = g * (i+1);
 
-			LedBereich bereich = LedBereich.builder().withAnfang(anfang).withEnde(ende).build();	
+			LedBereich bereich = LedBereich.builder().withAnfang(anfang).withEnde(ende).build();
+			bereiche.add(bereich);
 		}
 	}
 	

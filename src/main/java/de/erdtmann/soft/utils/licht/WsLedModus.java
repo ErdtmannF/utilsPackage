@@ -25,17 +25,7 @@ public enum WsLedModus {
 		return parameter;
 	}
 
-	public void setParameter(String parameter) {
-		this.parameter = parameter;
-	}
-
 	public int getWerte() {
 		return werte;
 	}
-
-	public void setWerte(int werte) {
-		this.werte = werte;
-	}
-	
-	
 }
