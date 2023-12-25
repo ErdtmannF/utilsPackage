@@ -2,27 +2,21 @@ package de.erdtmann.soft.utils.licht;
 
 public enum WsLedModus {
 
-	ALLE_AN("alleAn", 0),
-	ALLE_AUS("alleAus", 0),
-	AN_AUS("anAus", 0),
-	HIN_HER("hinHer", 0),
-	FADE("fade", 0),
-	COLOR_FADE("colorFade", 0),
-	HELLIGKEIT("helligkeit", 1),
-	V1("v1", 1),
-	V2("v2", 1),
-	FARBE("farbe", 1);
+	ALLE_AN(0),
+	ALLE_AUS(0),
+	AN_AUS(0),
+	HIN_HER(0),
+	FADE(0),
+	COLOR_FADE(0),
+	HELLIGKEIT(1),
+	V1(1),
+	V2(1),
+	FARBE(1);
 	
-	private String parameter;
 	private int werte;
 	
-	WsLedModus(String parameter, int werte) {
-		this.parameter = parameter;
+	WsLedModus(int werte) {
 		this.werte = werte;
-	}
-
-	public String getParameter() {
-		return parameter;
 	}
 
 	public int getWerte() {
