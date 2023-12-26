@@ -1,6 +1,7 @@
 autoEnabled=true
+bindingSuggestionsDisabled=false
 eclipse.preferences.version=1
 idePrefixKey=
-projectKey=de.erdtmann.soft\:utilsPackage
+projectKey=ErdtmannF_utilsPackage
 serverId=SonarCloud/erdtmannf
 sqPrefixKey=
